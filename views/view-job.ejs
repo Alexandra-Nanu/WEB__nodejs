@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Job</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/public/style.css">
+</head>
+
+<body class="container" style="margin-top: 50px;">
+
+<h1 class="mb-4">Job Details</h1>
+
+<div class="mb-3">
+    <strong>Job Title:</strong>
+    <p><%= job.title %></p>
+</div>
+
+<div class="mb-3">
+    <strong>Company:</strong>
+    <p><%= job.company %></p>
+</div>
+
+<div class="mb-3">
+    <strong>Type:</strong>
+    <p><%= job.type %></p>
+</div>
+
+<div class="mb-3">
+    <strong>Experience level:</strong>
+    <p><%= job.experience_level %></p>
+</div>
+
+<div class="mb-3">
+    <strong>Salary:</strong>
+    <p>€<%= job.salary %></p>
+</div>
+
+<a href="/manage-jobs" class="btn btn-primary">Back to Jobs</a>
+
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+/*default elements*/
+body {
+    background: black;
+    color: white;
+}
+/*end of default elements*/
+
+/*buttons*/
+.btn-primary{
+    background-color: #b9a0e3 !important;
+    color: #000080 !important;
+    border-color: #b9a0e3 !important;
+}
+
+.btn-primary:hover {
+    color: lightblue !important;
+    background-color: mediumpurple !important;
+    border-color: mediumpurple !important;
+}
+
+.btn-secondary {
+    background-color: #000080 !important;
+    color: #b9a0e3 !important;
+    border-color: #000080 !important;
+}
+
+.btn-secondary:hover {
+    color: lightblue !important;
+    background-color: #19195a !important;
+    border-color: #19195a !important;
+}
+
+.btn-danger {
+    color: #19195a !important;
+    background-color: hotpink !important;
+}
+
+.btn-danger:hover {
+    color: white !important;
+    background-color: #da3544 !important;
+    border-color: #da3544 !important;
+}
+
+.btnprimary {
+    color: mediumpurple !important;
+}
+
+.btnprimary:hover {
+    color: lightblue !important;
+}
+
+.btndanger {
+    color: hotpink !important;
+}
+
+.btndanger:hover {
+    color: red !important;
+}
+/*end of buttons*/
+
+
+/*input elements*/
+.input-box {
+    /*any input field*/
+    background-color: #b79fed;
+}
+
+.input {
+    /*add-job input boxes*/
+    background-color: #b79fed;
+    color: black;
+}
+
+.input:focus {
+    background-color: mediumpurple;
+    color: #19195a;
+}
+/*end of input elements*/
+
+/*table styling*/
+.table thead {
+    background-color: #b9a0e3; /*background color for the head of the table*/
+    color: #19195a;
+}
+
+.table tbody td, .table thead th {
+    border: 1px solid #434343; /*table lines*/
+}
+/*end of table styling*/
+
+/*justified text*/
+.justified-text {
+    text-align: justify;
+}
+/*end of justified text*/
