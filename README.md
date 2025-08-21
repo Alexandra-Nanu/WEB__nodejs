@@ -23,7 +23,7 @@ This project is a Node.js-based web application for managing events, job posting
 - routes/ → API endpoints for different modules
 - models/ → Mongoose schemas for structured data
 - public/ → Static assets (CSS, JavaScript, images)
-- 
+  
 ## Console commands used
 **`node app.js`**
 - runs the application
@@ -33,24 +33,24 @@ This project is a Node.js-based web application for managing events, job posting
   - a web application framework for Node.js
   - simplified handling HTTP requests, routing and rendering views
   - ex: handles routes like /register, /login, /dashboard
-mysql2
-a library that allows the app to interact with the MySQL database
-stores user data
-contains promise support, which is used in this app (pending, fulfilled, rejected)
-ejs (Embedded JavaScript)
-template engine for NodeJS
-useful for rendering data from the server to the client
-ex: renders pages like login.ejs with dynamic data
-bcrypt
-library to hash passwords securely
-passport
-handles authentication in Node.js applications
-simplifies the login/logout process, by supporting various strategies
-ex: authenticates users during login
-passport-local
-strategy used by passport for authenticating users with a username and password
-verifies user credentials by comparing input with stored data
-ex: checks if the entered password matches the hashed password during login
-express-session
-used to persist user sessions across multiple requests
-maintains the user session after login
+- `mysql2`
+  - a library that allows the app to interact with the MySQL database
+  - stores user data
+  - contains promise support, which is used in this app (pending, fulfilled, rejected)
+- `ejs` (Embedded JavaScript)
+  - template engine for NodeJS
+  - useful for rendering data from the server to the client
+  - ex: renders pages like login.ejs with dynamic data
+- `bcrypt`
+  - library to hash passwords securely
+- `passport`
+  - handles authentication in Node.js applications
+  - simplifies the login/logout process, by supporting various strategies
+  - ex: authenticates users during login
+- `passport-local`
+  - strategy used by passport for authenticating users with a username and password
+  - verifies user credentials by comparing input with stored data
+  - ex: checks if the entered password matches the hashed password during login
+- `express-session`
+  - used to persist user sessions across multiple requests
+  - maintains the user session after login
